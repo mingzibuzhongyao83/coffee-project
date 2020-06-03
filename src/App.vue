@@ -1,0 +1,46 @@
+<template>
+  <div id="app">
+    <!-- 一级路由 -->
+    <router-view></router-view>
+  </div>
+</template>
+
+<style lang="less">
+html{
+  height: 100%;
+}
+body {
+  margin: 0 auto;
+  height: 100%;
+  background-color: #f7f7f7;
+}
+#app{
+  height: 100%;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.auto-img {
+  width: 100%;
+  display: block;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+input {
+  border: none;
+  padding: 0;
+  margin: 0;
+  outline: none;
+}
+</style>
